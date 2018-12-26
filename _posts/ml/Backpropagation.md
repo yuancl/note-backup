@@ -16,9 +16,9 @@ categories:
 
 #### 网络结构
 - 简单神经网络结构：
-  ![IMAGE](resources/65C926A1DF9A4F2D9EBB22BEC38F663F.jpg =560x401)
+  {% asset_img resources/65C926A1DF9A4F2D9EBB22BEC38F663F.jpg %}
 - 单个数据的代价函数：
-  ![IMAGE](resources/2A341859393F3EFDA0E5F215414C2CD5.jpg =600x97)
+  {% asset_img resources/2A341859393F3EFDA0E5F215414C2CD5.jpg %}
 
 #### 神经网络学习算法图概览
 - 清楚一个函数的求导对象：输入值
@@ -30,12 +30,12 @@ categories:
 - 神经网络的学习(训练)流程(前馈传播和BP算法)
   对照文首给出的图 1.1 神经网络的模型图，应该很容易理解图 3.1 的含义，它大致地展现了神经网络的学习（训练）流程。前馈传播算法自下而上地向上计算，最终可以得到 a(3)，进一步可以计算得到 J(Θ)。而 BP 算法自顶向下，层层求偏导，最终得到了每个参数的梯度值。下面一个小节将仔细介绍本文的主题，即 BP 算法的流程图解。
 
-![IMAGE](resources/0A913A35D7E650A4E2C65A6A7AF52C4F.jpg =619x525)
+{% asset_img resources/0A913A35D7E650A4E2C65A6A7AF52C4F.jpg %}
 
 #### BP 算法的直观图解
   - BP 算法的流程在这张图中清晰可见：自顶向下（对应神经网络模型为自输出层向输入层）层层求偏导(核心：找准谁是谁的输入，对求偏导尤其重要)
   - 所以 BP 算法即反向传播算法，<font color='red'>就是自顶向下求代价函数$J(\theta)$ 对各个参数$\theta^l_{ij}$ 偏导($\frac{\partial}{\partial\theta^l_{ij}}J(\theta)$)的过程</font>，对应到神经网络模型中即自输出层向输入层层层求偏导
-  ![IMAGE](resources/9005E13A2814A7CE44469B4204073DE9.jpg =672x493)
+  {% asset_img resources/9005E13A2814A7CE44469B4204073DE9.jpg %}
   - 从这里可以看出：，为什么要使用BP算法：<font color='red'>
     - 自输出层向输入层（即反向传播），逐层求偏导，在这个过程中逐渐得到各个层的参数梯度。
     - 在反向传播过程中，使用$\delta(l)$ 保存了部分结果，从而避免了大量的重复运算。</font>
