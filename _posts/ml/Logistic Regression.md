@@ -3,11 +3,8 @@ title: Logistic Regression
 date: 2018-06-08 19:40:01
 tags: 
 - 机器学习
-- 监督学习
-- 分类模型
 categories: 
 -  机器学习
--  监督学习
 ---
 [习题代码:Logistic Regression](https://github.com/yuancl/ml-algorithm/tree/master/exe2-LogisticRegression)
 #### 使用场景：解决分类问题

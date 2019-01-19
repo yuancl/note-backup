@@ -3,11 +3,8 @@ title: Linear Regression
 date: 2018-06-01 18:47:09
 tags: 
 - 机器学习
-- 监督学习
-- 回归模型
 categories: 
 -  机器学习
--  监督学习
 ---
 
 [习题代码:Linear Regression](https://github.com/yuancl/ml-algorithm/tree/master/exe1-LinearRegression)
