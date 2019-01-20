@@ -3,8 +3,10 @@ title: GBDT模型
 date: 2018-07-27 07:19:11
 tags: 
 - 机器学习
+- 机器学习基础
 categories: 
 - 机器学习
+- 机器学习基础
 ---
 
 [集成学习方法](https://yuancl.github.io/2018/07/24/nlp/集成学习方法/)
@@ -23,7 +25,7 @@ categories:
 - 算法
   - 这里的m是m个机器学习模型，n应该是样本的数量。这里就能够看出，boost方法就是前一轮的结果会影响后一轮
   {% asset_img resources/297ED5E7B40AD7E5192DB0EE79E577F7.jpg %}
-  - 一般定义不同的Loss函数，就能得到不同的算法，比如这里用二分类任务中常用的$L(y,F)=log(1+exp(-2yF)), y \in {\{-1,1\}}$,就能得到如下算法：
+  - 一般定义不同的Loss函数，就能得到不同的算法，比如这里用二分类任务中常用的$L(y,F)=log(1+exp(-2yF)), y \in {(-1,1)}$,就能得到如下算法：
   {% asset_img resources/DB082CA541217CF13A4A4DC535C9D2F0.jpg %}
 
 #### DT理解

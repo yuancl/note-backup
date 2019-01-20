@@ -3,8 +3,10 @@ title: Logistic Regression
 date: 2018-06-08 19:40:01
 tags: 
 - 机器学习
+- 机器学习基础
 categories: 
 -  机器学习
+-  机器学习基础
 ---
 [习题代码:Logistic Regression](https://github.com/yuancl/ml-algorithm/tree/master/exe2-LogisticRegression)
 #### 使用场景：解决分类问题

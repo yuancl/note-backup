@@ -3,8 +3,10 @@ title: NeuralNetwork
 date: 2018-06-18 07:41:11
 tags: 
 - 机器学习
+- 机器学习基础
 categories: 
 -  机器学习
+-  机器学习基础
 ---
 
 [习题代码:NeuralNetwork](https://github.com/yuancl/ml-algorithm/tree/master/exe4-NeuralNetwork)
